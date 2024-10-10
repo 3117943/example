@@ -8,19 +8,47 @@
         <h1>HTML Forms</h1>
 
 
+        <!--form start-->
         <form>
+
+            <!--username field-->
             <label for="username"><b>Enter username:</b></label>
             <input type="text" id="username" name="username">
             
             <br><br>
             
+            <!--password field-->
             <label for="password"><b>Enter password:</b></label>
             <input type="password" id="password" name="password">
             
             <br><br>
 
+            <!--email field-->
             <label for="email"><b>Enter your email:</b></label>
             <input type="email" id="email" name="email">
+            
+            <br><br>
+
+            <!--Radio buttons-->
+            <p1>Please select your gender:</p1><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <!--Checkbox-->
+            <p2>Options:</p2><br>
+            <input type="checkbox" id="Option 1" name="options" value="Option1"
+            <label for="Option 1">Option 1</label><br>
+            <input type="checkbox" id="Option 2" name="options" value="Option1"
+            <label for="Option 2">Option 2</label><br>
+            <input type="checkbox" id="Option 3" name="options" value="Option1"
+            <label for="Option 3">Option 3</label><br>
+
+            <!--Submit button-->
+            <button type="submit">Submit</button>
         </form>
     </body>
 </html>
